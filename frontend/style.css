@@ -31,6 +31,7 @@ section{
 
 #canvas {
     border: 3px solid whitesmoke;
+    aspect-ratio: auto 1200 / 1200;
   }
 
 .btn-success {
