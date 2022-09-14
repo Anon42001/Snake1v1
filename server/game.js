@@ -45,7 +45,7 @@ function createGameState() {
       },
       //Spieler2 Posiition
       vel: {
-        x: 0,
+        x: 1, //0
         y: 0,
       },
       //Spieler2 Schlangenlänge
