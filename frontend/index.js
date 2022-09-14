@@ -4,7 +4,7 @@ const FOOD_COLOUR = '#28a745';
 const SNAKE_COLOUR = '#7B68EE';
 
 // Frontend mit Backend verknüpfen
-const socket = io('https://tranquil-refuge-03880.herokuapp.com/'); //Heroku App-Domain
+const socket = io('https://sleepy-island-33889.herokuapp.com/'); //Heroku App-Domain
 
 //Listen to:
 socket.on('gameState', handleGameState);
