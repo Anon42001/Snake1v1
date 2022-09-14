@@ -1,0 +1,41 @@
+h1{
+    font-size: 5.5rem;
+    font-weight: bold;
+    font-family: 'Bungee Outline', cursive;
+    color:#28a745;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Bungee Outline', cursive;
+    color:#28a745;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+body{
+    color: white;
+}
+
+section{
+    background-color: #000000;
+}
+
+#initialScreen div {
+    background-image: url('snake.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#canvas {
+    border: 3px solid whitesmoke;
+  }
+
+.btn-success {
+    color: #fff;
+    background-color: #42e42200;
+    border-color: #28a745;
+}
+
