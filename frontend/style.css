@@ -1,3 +1,8 @@
+
+element.style {
+    width: 258px;
+}
+
 h1{
     font-size: 5.5rem;
     font-weight: bold;
@@ -12,10 +17,6 @@ h2{
     font-weight: bold;
     font-size: 2.5rem;
     text-align: center;
-}
-
-element.style {
-    width: 250px;
 }
 
 body{
