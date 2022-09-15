@@ -40,8 +40,25 @@ section{
 .btn-success {
     color: #fff;
     background-color: #28a74500;
-    border-color: #28a745;
     border-radius: 3px;
     border-width: medium;
 }
+
+.btn-borderColorCNG{
+    border-color: #7B68EE;
+}
+
+.btn-borderColorJG{
+    border-color: #ff0000;
+}
+
+.btnCNG:hover{
+    background-color: #7B68EE;
+    border-color: #fff;
+}
+
+.btnJG:hover{
+    background-color: #ff0000;
+    border-color: #fff;
+ }
 
