@@ -21,7 +21,7 @@ function createGameState() {
     //Spieler1 Posiition
     players: [{
       pos: {
-        x: 5,
+        x: 3, //5
         y: 10,
       },
       ////Spieler1 Beschleunigung
@@ -34,18 +34,18 @@ function createGameState() {
         {x: 1, y: 10},
         {x: 2, y: 10},
         {x: 3, y: 10},
-        {x: 4, y: 10},
-        {x: 5, y: 10},
+//         {x: 4, y: 10},
+//         {x: 5, y: 10},
       ],
     }, {
       //Spieler2 Posiition
       pos: {
-        x: 16,
+        x: 18, //16
         y: 10,
       },
-      //Spieler2 Posiition
+      //Spieler2 Beschleunigung
       vel: {
-        x: 1, //0
+        x: 0, //1
         y: 0,
       },
       //Spieler2 Schlangenlänge
@@ -53,8 +53,8 @@ function createGameState() {
         {x: 20, y: 10},
         {x: 19, y: 10},
         {x: 18, y: 10},
-        {x: 17, y: 10},
-        {x: 16, y: 10},
+//         {x: 17, y: 10},
+//         {x: 16, y: 10},
       ],
     }],
     food: {},
