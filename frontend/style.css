@@ -14,16 +14,16 @@ h2{
     text-align: center;
 }
 
-#gameCodeInput {
-    width: 250px;
-}
-
 body{
     color: white;
 }
 
 section{
     background-color: #000000;
+}
+
+#gameCodeInput {
+    width: 250px;
 }
 
 #initialScreen div {
@@ -35,12 +35,13 @@ section{
 
 #canvas {
     border: 3px solid whitesmoke;
-    aspect-ratio: auto 1200 / 1200;
   }
 
 .btn-success {
     color: #fff;
-    background-color: #42e42200;
+    background-color: #28a74500;
     border-color: #28a745;
+    border-radius: 3px;
+    border-width: medium;
 }
 
