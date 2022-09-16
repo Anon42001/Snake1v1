@@ -66,6 +66,45 @@ function keydown(e) {
   socket.emit('keydown', e.keyCode);
 }
 
+//__________________________________________________________________
+
+// //CountdownTimer
+// function countdown(time){
+//     if (time>0){
+//         console.log(time);
+//         setTimeout(function(){countdown(time-1)},1000);
+//         }else{
+//             init();// replace with any function
+//         };
+// }
+// countdown(3);
+
+
+//__________________________________________________________________
+
+
+// //Pause InGame
+// function togglePause()
+// {
+//     if (!paused)
+//     {
+//         paused = true;
+//     } else if (paused)
+//     {
+//        paused= false;
+//     }
+
+// }
+
+// window.addEventListener('keydown', function (e) {
+// var key = e.keyCode;
+// if (key === 80)// p key
+// {
+//     togglePause();
+// }
+// });
+//__________________________________________________________________
+
 // Spielfarben & Maßeinheiten (Funktion)
 function paintGame(state) {
   ctx.fillStyle = BG_COLOUR;
