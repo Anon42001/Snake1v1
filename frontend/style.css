@@ -26,12 +26,12 @@ section{
     width: 250px;
 }
 
-#initialScreen div {
+/* #initialScreen div {
     background-image: url('snake.gif');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
+} */
 
 #canvas {
     border: 3px solid whitesmoke;
