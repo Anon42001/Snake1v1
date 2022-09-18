@@ -1,4 +1,4 @@
-Access-Control-Allow-Origin: *
+Access-Control-Allow-Origin: *;
 
 // Importieren von Modulen & Aktiviere Cross-Origin Resource Sharing 
 const http = require("http");
