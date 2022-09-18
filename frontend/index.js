@@ -2,7 +2,7 @@
 const BG_COLOUR = '#231f20';
 const FOOD_COLOUR = '#28a745';
 const SNAKE_COLOUR = '#7B68EE';
-
+//
 // Frontend mit Backend verknüpfen
 const socket = io('https://sleepy-island-33889.herokuapp.com/'); //Heroku App-Domain
 
