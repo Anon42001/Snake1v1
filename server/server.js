@@ -1,5 +1,3 @@
-Access-Control-Allow-Origin: *;
-
 // Importieren von Modulen & Aktiviere Cross-Origin Resource Sharing 
 const http = require("http");
 const socket_io = require("socket.io");
@@ -7,11 +5,11 @@ const socket_io = require("socket.io");
 const httpServer = http.createServer();
 const io = new socket_io.Server(httpServer, {
   cors: {
-    origin: "https://snake1v1.netlify.app",
-//        origin: "http://127.0.0.1:8080",
+//        origin: "https://snake1v1.netlify.app",
+       origin: "http://127.0.0.1:8080",
 //        origin: "https://sleepy-island-33889.herokuapp.com/",
 //        origin: "https://tranquil-refuge-03880.herokuapp.com/",
-        methods: ["GET", "POST"]
+//        methods: ["GET", "POST"]
   },
 })();
 
