@@ -128,7 +128,7 @@ function paintPlayer(playerState, size, colour) {
 
   ctx.fillStyle = colour;
   for (let cell of snake) {
-    ctx.fillRect(cell.x * size, cell.y * size, size, size);
+    ctx.fillRect(cell.x * size, cell.y * size, size -2, size -2); //Zelle 2pixel kleiner
   }
 }
 
