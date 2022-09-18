@@ -114,7 +114,7 @@ function paintGame(state) {
   const gridsize = state.gridsize;
   const size = canvas.width / gridsize;
 
-  //Elemente mit Farbe ausfüllen
+  //Essen mit Farbe ausfüllen & Größe festlegen
   ctx.fillStyle = FOOD_COLOUR;
   ctx.fillRect(food.x * size, food.y * size, size, size);
 
