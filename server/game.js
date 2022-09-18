@@ -26,7 +26,7 @@ function createGameState() {
       },
       ////Spieler1 Beschleunigung
       vel: {
-        x: 1, //1
+        x: 0, //1
         y: 0,
       },
       //Spieler1 Schlangenlänge
