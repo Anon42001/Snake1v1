@@ -9,8 +9,7 @@ const io = new socket_io.Server(httpServer, {
 //        origin: "http://127.0.0.1:8080",
 //        origin: "https://sleepy-island-33889.herokuapp.com/",
 //        origin: "https://tranquil-refuge-03880.herokuapp.com/",
-   
-    
+        methods: ["GET", "POST"]
   },
 })();
 
