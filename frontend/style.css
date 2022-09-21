@@ -62,7 +62,7 @@ section{
     border-color: #fff;
  }
 
-.snakegif div {
+.snakegif {
     background-image: url('snake.gif');
     background-repeat: no-repeat;
     background-attachment: fixed;
