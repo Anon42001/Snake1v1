@@ -24,10 +24,29 @@
         <div class="snakegif d-flex flex-column align-items-center justify-content-center h-100">
           <h1>Snake - 1 vs 1</h1>
           <br>
-          <br>
-          <br>
-          <br>
-          <br>
+          
+         //Help Button
+         <div class="wrap-collabsible">
+            <input id="collapsible" class="toggle" type="checkbox">
+            <label for="collapsible" class="lbl-toggle">Help</label>
+            <div class="collapsible-content">
+              <div class="content-inner">
+                <div><u> Instructions </u>: 
+                  <ol>• Press "Create New Game" button to receive a Game Code <br>
+                  • If you already have a game code, enter it in the white box and press "Join Game"</ol>
+                  <ol>If you press the "Create New Game" button: <br>
+                    You will be the <span style="color: #7B68EE">Blue Snake</span> | Spawning on the left side</ol>
+                  <ol>If you press the "Join Game" button: <br>
+                    You will be the <span style="color: #ff0000">Red Snake</span> | Spawning on the right side</ol>                </div>
+                <div><u> Controls </u>: ←↑→ (Arrow Keys)</div>
+                <br>                  
+                <div>
+                  <u>Game Rules </u>: If you hit the wall or your own body, you lose 
+                </div>
+              </div>
+            </div>
+          </div>
+          
           <button
               type="submit"
               class="btnCNG btn-borderColorCNG btn-success"
@@ -36,8 +55,6 @@
               Create New Game
             </button>
              <p>(Blue Snake - Left)</p>
-          <br>
-          <br>
             <div font-color: white>OR</div>
             <div class="form-group">
               <input type="text" placeholder="Enter Game Code (Case Sensitive!)" id="gameCodeInput"/>
@@ -50,10 +67,6 @@
               Join Game
             </button>
              <p>(Red Snake - Right)</p>
-            <br>
-            <br>
-            <br>
-            <br>
              
           </div>
       </div>
