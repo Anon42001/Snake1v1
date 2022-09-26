@@ -1,3 +1,5 @@
+/* ------------------------------ Tags -----------------------------------*/
+
 h1{
     font-size: 4rem;
     font-weight: bold;
@@ -22,6 +24,8 @@ section{
     background-color: #000000;
 }
 
+/* ------------------------------ IDs -----------------------------------*/
+
 #gameCodeInput {
     width: 252px;
 }
@@ -36,6 +40,8 @@ section{
 #canvas {
     border: 3px solid whitesmoke;
   }
+
+/* ------------------------------ Klassen -----------------------------------*/
 
 .btn-success {
     color: #fff;
@@ -140,7 +146,18 @@ input[type='checkbox'] {
 .collapsible-content p { 
     margin-bottom: 0; 
 }
+/* ------------------------------ Footer -----------------------------------*/
+.footer {
+    color: rgb(172 172 172);
+    font-size: 0.8em;
+    position: fixed;
+    height: 30px;
+    bottom: 0px;
+    right: 3%;
+   height: fit-content;
+}
 
+/* ------------------------------ Responsive -----------------------------------*/
 
 @media screen and (max-width: 800px) {
     .small-1 {
