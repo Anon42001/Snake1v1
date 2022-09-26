@@ -62,13 +62,14 @@ section{
     border-color: #fff;
  }
 
-.snakegif {
+
+/* .snakegif {
     background-image: url('snake.gif');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-
+ */
 
 /*Help Button*/
 input[type='checkbox'] {
@@ -141,3 +142,9 @@ input[type='checkbox'] {
 }
 
 
+@media screen and (max-width: 800px) {
+    .small-1 {
+        width: 50%;
+        font-size: 3rem;
+    }
+}
